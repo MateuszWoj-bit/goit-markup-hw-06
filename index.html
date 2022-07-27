@@ -415,6 +415,37 @@
     <div id="backdrop" class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="modal-button">x</button>
+        <h3>Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="form modal-form">
+      <label class="modal-label">
+        <span class="label-text">Username</span>
+        <input 
+          type="text"
+          class="modal-form-input"
+          name="username"
+          required
+          minlength="3"
+          
+        />
+      </label>
+
+      <label class="modal-label">
+        <span class="label-text">Telefon</span>
+        <input type="email"  class="modal-form-input" name="mail" required />
+      </label>
+
+       <label class="modal-label">
+        <span class="label-text">Email</span>
+        <input type="email" class="modal-form-input" name="mail" required />
+      </label>
+
+       <label class="modal-label">
+        <span class="label-text">Komentarz</span>
+       <textarea class="modal-form-input" name="feedback"  rows="50" placeholder="Wprowadź tekst"></textarea>
+      </label>
+
+      <button class="modal-submit" type="submit">Wyślij</button>
+    </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
