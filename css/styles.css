@@ -42,7 +42,8 @@
 
 /* When the checkbox is checked, add a blue background */
 .agreement-lable input:checked ~ .checkmark {
-   background-image: url(https://thumbs.dreamstime.com/z/zielony-checkbox-czek-107151241.jpg);
+  background-color: none;
+  background-image: url(https://thumbs.dreamstime.com/z/zielony-checkbox-czek-107151241.jpg);
   background-size: 20px 20px ;
   background-repeat: no-repeat;
   z-index: 5;
@@ -373,9 +374,6 @@ ul {
   color: #757575;
   margin-left: 35px;
 }
-.agreement-input{
-
-}
 
 .agreement-text a {
   color: #2196f3;
@@ -447,8 +445,19 @@ ul {
   color: var(--grey-50-color);
 }
 
-.modal-svg {position: absolute;
-bottom: 0;
+.modal-svg-1 {position: absolute;
+top: 0;
+margin: 29px 0 0 15px;
+}
+
+.modal-svg-2 {position: absolute;
+top: 0;
+margin: 32px 0 0 17px;
+}
+
+.modal-svg-3 {position: absolute;
+top: 0;
+margin: 31px 0 0 17px;
 }
 
 
@@ -518,7 +527,8 @@ bottom: 0;
 .footer-submit-svg{position: absolute;
 top: 0;
 right: 0;
-margin-right: 20px;
+margin-top: 15px;
+margin-right: 30px;
 fill: #fff;}
 
 .nav1 {
